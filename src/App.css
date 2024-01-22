@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-c-black text-c-white font-sans;
+}
+
+.btn {
+  @apply text-c-white py-1 rounded-md shadow-xl;
+}
+.btn-primary {
+  @apply bg-c-primary;
+}
+.btn-danger {
+  @apply bg-c-danger;
+}
+.btn-only {
+  @apply bg-transparent hover:bg-slate-700;
+}
